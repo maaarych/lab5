@@ -11,5 +11,6 @@ public abstract class FlowerTypeFilter implements SearchFilter {
     }
     public boolean match(Flower flower) {
         return flower.getFlowerType() == targetFlowerType;
+   
     }
 }
